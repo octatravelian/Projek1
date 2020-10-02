@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pengenalan HTML</title>
+    <!-- Referensi pada Elemen Head -->
+    <style type="text/css">
+        h1 {
+            color: red;
+        }
+    </style>
+
+    <!-- Referensi pada file eksternal -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Berita Utama</h1>
+    <p>
+        Elemen h1 digunakan untuk menandakan sebuah header dari teks
+        (h1 == header 1). Konten teks ini sendiri berada di dalam
+        sebuah paragraf, yang ditandai oleh elemen p.
+    </p>
+
+    <!-- CSS langsung pada atribut style -->
+    <p style="font-weight: bold;">
+        Paragraf kedua.
+    </p>
+  </body>
+</html>
